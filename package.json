@@ -1,0 +1,45 @@
+{
+  "name": "loopback-connector-db2z",
+  "version": "1.0.14",
+  "description": "LoopBack Connector for IBM DB2 for z/OS",
+  "keywords": [
+    "IBM",
+    "StrongLoop",
+    "LoopBack",
+    "DB2z",
+    "DataSource",
+    "Connector"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint ./ && jscs ./",
+    "lint": "eslint ./ && jscs ./",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "debug": "^2.2.0",
+    "loopback-connector": "^2.3.0",
+    "loopback-connector-ibmdb": "^0.0.4"
+  },
+  "devDependencies": {
+    "jscs": "^2.8.0",
+    "eslint": "^1.10.3",
+    "eslint-config-strongloop": "^1.0.2",
+    "loopback-datasource-juggler": "^2.43.0",
+    "mocha": "^2.3.4",
+    "rc": "^1.1.5",
+    "should": "^8.1.1",
+    "sinon": "^1.17.2",
+    "bluebird": "^2.9.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strongloop/loopback-connector-db2z.git"
+  },
+  "homepage": "https://github.com/strongloop/loopback-connector-db2z",
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback-connector-db2z/issues"
+  },
+  "license": "Artistic-2.0"
+}
