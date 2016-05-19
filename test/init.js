@@ -1,5 +1,5 @@
 // Copyright IBM Corp. 2016. All Rights Reserved.
-// Node module: loopback-connector-dashdb
+// Node module: loopback-connector-db2z
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
 
@@ -8,12 +8,12 @@ module.exports = require('should');
 var DataSource = require('loopback-datasource-juggler').DataSource;
 
 var config = {
-  username: process.env.DASHDB_USERNAME,
-  password: process.env.DASHDB_PASSWORD,
-  hostname: process.env.DASHDB_HOSTNAME || 'localhost',
-  port: process.env.DASHDB_PORTNUM || 60000,
-  database: process.env.DASHDB_DATABASE || 'testdb',
-  schema: process.env.DASHDB_SCHEMA || 'STRONGLOOP',
+  username: process.env.DB2Z_USERNAME,
+  password: process.env.DB2Z_PASSWORD,
+  hostname: process.env.DB2Z_HOSTNAME || 'localhost',
+  port: process.env.DB2Z_PORTNUM || 60000,
+  database: process.env.DB2Z_DATABASE || 'testdb',
+  schema: process.env.DB2Z_SCHEMA || 'STRONGLOOP',
 };
 
 global.config = config;
