@@ -1,7 +1,7 @@
 #loopback-connector-db2z
 
 [IBM® DB2® for z/OS®]() is the database of choice for robust, enterprise-wide solutions handling high-volume workloads.
-It is optimized to deliver industry-leading performance while lowering costs.  The `loopback-connector-db2`
+It is optimized to deliver industry-leading performance while lowering costs.  The `loopback-connector-db2z`
 module is the LoopBack connector for DB2z.
 
 The LoopBack DB2z connector supports:
@@ -14,7 +14,7 @@ The LoopBack DB2z connector supports:
 Enter the following in the top-level directory of your LoopBack application:
 
 ```
-$ npm install loopback-connector-db2 --save
+$ npm install loopback-connector-db2z --save
 ```
 
 The `--save` option adds the dependency to the application's `package.json` file.
@@ -67,9 +67,9 @@ var DataSource = require('loopback-datasource-juggler').DataSource;
 var DB2Z = require('loopback-connector-db2z');
 
 var config = {
-  username: process.env.DB2_USERNAME,
-  password: process.env.DB2_PASSWORD,
-  hostname: process.env.DB2_HOSTNAME,
+  username: process.env.DB2Z_USERNAME,
+  password: process.env.DB2Z_PASSWORD,
+  hostname: process.env.DB2Z_HOSTNAME,
   port: 50000,
   database: 'SQLDB',
 };
