@@ -19,6 +19,8 @@ $ npm install loopback-connector-db2z --save
 
 The `--save` option adds the dependency to the application's `package.json` file.
 
+This module is dependent on the node-ibm_db module which requires appropriate licenses be available as per instructions found at https://github.com/ibmdb/node-ibm_db/blob/master/README.md.  Once loopback-connector-db2z is installed please copy the required license file to the location described.
+
 ## Configuration
 
 Use the [data source generator](https://docs.strongloop.com/display/LB/Data+source+generator) (`slc loopback:datasource`) to add the DB2z data source to your application.
