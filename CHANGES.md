@@ -1,3 +1,9 @@
+2016-08-19, Version 1.0.4
+=========================
+
+ * Change idName to idColumn (Quentin Presley)
+
+
 2016-08-18, Version 1.0.3
 =========================
 
