@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha",
+    "test": "mocha --timeout 10000",
     "posttest": "npm run lint"
   },
   "dependencies": {
