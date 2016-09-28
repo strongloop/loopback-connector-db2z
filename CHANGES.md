@@ -1,3 +1,35 @@
+2016-09-28, Version 1.0.5
+=========================
+
+ * Remove CurrentSchema from DSN (Quentin Presley)
+
+ * Revert mocha timeout (#14) (Simon Ho)
+
+ * Refactor test skipping to detect CI environment (#13) (Simon Ho)
+
+ * Add license text and fix typos (Candy)
+
+ * Delete Makefile (Simon Ho)
+
+ * Delete .jscsrc (Simon Ho)
+
+ * Fix linting errors (Simon Ho)
+
+ * Use LoopBack ESLint configs (Simon Ho)
+
+ * Skip tests until CI is configured properly (Simon Ho)
+
+ * Add globalization (Candy)
+
+ * Update deps to loopback 3.0.0 RC (Miroslav Bajtoš)
+
+ * Fix bugs URL in package.json (Simon Ho)
+
+ * Use juggler@3 for running tests (Simon Ho)
+
+ * Direct issues to strongloop/loopback in README.md (Simon Ho)
+
+
 2016-08-19, Version 1.0.4
 =========================
 
