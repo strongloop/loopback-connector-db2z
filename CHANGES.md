@@ -1,3 +1,15 @@
+2016-11-03, Version 1.0.6
+=========================
+
+ * Remove lazy connect (Quentin Presley)
+
+ * Update doc links, etc (crandmck)
+
+ * Add connectorCapabilities global object (#18) (Nicholas Duffy)
+
+ * Remove path dependency (Candy)
+
+
 2016-09-28, Version 1.0.5
 =========================
 
