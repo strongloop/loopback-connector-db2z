@@ -33,6 +33,9 @@
     "should": "^8.1.1",
     "sinon": "^1.17.2"
   },
+  "publishConfig": {
+    "tag": "lts"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/strongloop/loopback-connector-db2z.git"
