@@ -1,7 +1,10 @@
 {
   "name": "loopback-connector-db2z",
-  "version": "1.0.6",
+  "version": "3.0.0-alpha.1",
   "description": "LoopBack Connector for IBM DB2 for z/OS",
+  "engines": {
+    "node": ">=4"
+  },
   "keywords": [
     "IBM",
     "StrongLoop",
