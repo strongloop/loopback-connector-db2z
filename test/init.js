@@ -17,7 +17,8 @@ var config = {
   hostname: process.env.DB2Z_HOSTNAME || 'localhost',
   port: process.env.DB2Z_PORTNUM || 60000,
   database: process.env.DB2Z_DATABASE || 'testdb',
-  schema: process.env.DB2Z_SCHEMA || 'STRONGLOOP',
+  setMinPoolSize: 10,
+  setMaxPoolSize: 500,
 };
 
 global.config = config;
