@@ -17,7 +17,7 @@ var Transaction = require('loopback-connector').Transaction;
 
 var db, Post;
 
-describe.skip('transactions', function() {
+describe('transactions', function() {
   describe('commit and rollback', function() {
     before(function(done) {
       db = global.getDataSource();
@@ -33,7 +33,7 @@ describe.skip('transactions', function() {
     // Return an async function to start a transaction and create a post
     function createPostInTx(post) {
       return function(done) {
-        Transaction.begin(db.connector, Transaction.REPEATABLE_READ,
+        Transaction.begin(db.connector, Transaction.READ_COMMITTED,
           function(err, tx) {
             if (err) return done(err);
             currentTx = tx;
@@ -59,7 +59,6 @@ describe.skip('transactions', function() {
         }
         Post.find({where: where}, options,
           function(err, posts) {
-            console.log('POSTS: ', posts, err);
             if (err) return done(err);
             posts.length.should.be.eql(count);
             done();
@@ -88,7 +87,7 @@ describe.skip('transactions', function() {
       var post = {title: 't2', content: 'c2'};
       before(createPostInTx(post));
 
-      it.skip('should not see the uncommitted insert',
+      it.only('should not see the uncommitted insert',
         expectToFindPosts(post, 0));
 
       it('should see the uncommitted insert from the same transaction',
