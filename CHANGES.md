@@ -1,3 +1,47 @@
+2017-04-11, Version 2.0.0
+=========================
+
+ * Skip transaction tests for now (Quentin Presley)
+
+ * Remove debug log of settings (Quentin Presley)
+
+ * Rewrite continued (Quentin Presley)
+
+ * Remove commented code (Quentin Presley)
+
+ * Start transaction rewrite (Quentin Presley)
+
+ * Update time to run tests (Quentin Presley)
+
+ * Initial rewrite logic (Quentin Presley)
+
+ * Refactor alterTable function (#33) (Sakib Hasan)
+
+ * Add buildReplace method (Loay)
+
+ * Refactor discovery (#30) (Janny)
+
+ * Add missing functions part of refactor (ssh24)
+
+ * Update README.md (Rand McKinney)
+
+ * Update paid support URL (Siddhi Pai)
+
+ * Start 3.x + drop support for Node v0.10/v0.12 (siddhipai)
+
+ * Drop support for Node v0.10 and v0.12 (Siddhi Pai)
+
+ * Start the development of the next major version (Siddhi Pai)
+
+ * Put issues tab back (siddhipai)
+
+ * Fix issues redirection in package.json (Siddhi Pai)
+
+ * Remove issues warning from README.md (Siddhi Pai)
+
+ * Add translation files (Candy)
+
+
 2016-11-03, Version 1.0.6
 =========================
 
