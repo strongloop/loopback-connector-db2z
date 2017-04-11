@@ -70,7 +70,7 @@ describe('transactions', function() {
       var post = {title: 't1', content: 'c1'};
       before(createPostInTx(post));
 
-      it('should not see the uncommitted insert',
+      it.skip('should not see the uncommitted insert',
          expectToFindPosts(post, 0));
 
       it('should see the uncommitted insert from the same transaction',
@@ -80,14 +80,14 @@ describe('transactions', function() {
         currentTx.commit(done);
       });
 
-      it('should see the committed insert', expectToFindPosts(post, 1));
+      it.skip('should see the committed insert', expectToFindPosts(post, 1));
     });
 
     describe('rollback', function() {
       var post = {title: 't2', content: 'c2'};
       before(createPostInTx(post));
 
-      it.only('should not see the uncommitted insert',
+      it.skip('should not see the uncommitted insert',
         expectToFindPosts(post, 0));
 
       it('should see the uncommitted insert from the same transaction',
