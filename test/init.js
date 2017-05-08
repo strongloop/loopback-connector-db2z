@@ -2,6 +2,9 @@
 // Node module: loopback-connector-db2z
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
+'use strict';
+
+var describe = require('./describe');
 
 module.exports = require('should');
 
@@ -13,7 +16,8 @@ var config = {
   hostname: process.env.DB2Z_HOSTNAME || 'localhost',
   port: process.env.DB2Z_PORTNUM || 60000,
   database: process.env.DB2Z_DATABASE || 'testdb',
-  schema: process.env.DB2Z_SCHEMA || 'STRONGLOOP',
+  setMinPoolSize: 10,
+  setMaxPoolSize: 500,
 };
 
 global.config = config;
