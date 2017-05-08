@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/strongloop/loopback-connector-db2z",
   "bugs": {
-    "url": "https://github.com/strongloop/loopback-connector-db2z/issues"
+    "url": "https://github.com/strongloop/loopback/issues"
   },
   "license": "Artistic-2.0"
 }
