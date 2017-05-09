@@ -2,6 +2,8 @@
 // Node module: loopback-connector-db2z
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
+'use strict';
+var describe = require('./describe');
 
 /* eslint-env node, mocha */
 process.env.NODE_ENV = 'test';
