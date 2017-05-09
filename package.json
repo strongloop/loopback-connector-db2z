@@ -17,7 +17,7 @@
   "scripts": {
     "pretest": "eslint .",
     "lint": "eslint .",
-    "test": "mocha --timeout 15000",
+    "test": "mocha --timeout 10000",
     "posttest": "npm run lint"
   },
   "dependencies": {
