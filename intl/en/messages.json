@@ -1,5 +1,21 @@
 {
+  "0cc360c963609b7c4ecf0b82d02a4fff": "{{addPropertyToActual()}} is not currently supported.",
+  "130848fb8a2410bbb210d1e4b215b9f0": "{{showFields()}} is not currently supported.",
+  "36c49732b9f58d259812cfb5ec6de895": "{{searchForPropertyInActual()}} is not currently supported.",
+  "388f95dbd90b33cabc5c2f1c79767662": "{{propertyHasNotBeenDeleted()}} is not currently supported.",
+  "5bd4357e0ae920069a47377e8d1fbe1c": "{{showIndexes()}} is not currently supported.",
+  "6ffaea01c603db5b5287927b28fb7785": "Function {{buildQueryTables}} not supported",
   "70fcd25148a85f5c8894d9179f1f47bc": "Function not supported",
+  "790d47ab3d8923628c50f1b51a8f1102": "Function {{getArgs}} not supported",
   "80a32e80cbed65eba2103201a7c94710": "Model not found: {0}",
-  "b0262f0bd6f0836e16e1a0aa78953475": "Invalid isolationLevel: {0}"
+  "85a1de9aa1df6f285abcabd10bf1e787": "Function {{setDefaultOptions}} not supported",
+  "9d3c0de0c6a232ec472470ea7dbcdfaf": "Function {{buildQueryPrimaryKeys}} not supported",
+  "9fe8bf7bb0666019398fc51ea7918791": "Function {{setNullableProperty}} not supported",
+  "b6b02c9d5f0d1f86890f936f186bca2e": "Function {{buildQueryColumns}} not supported",
+  "baa04cd08950779fd7a771e9b3bfc36d": "{{applySqlChanges()}} is not currently supported.",
+  "d2b2e849cca356f88a6681d936c40174": "Function {{buildQueryExportedForeignKeys}} not supported",
+  "d6f986707057234486f417796f6729c4": "Function {{buildQueryViews}} not supported",
+  "fc0b022726ec79a31ecd41c7ab87e26b": "Function {{buildQuerySchemas}} not supported",
+  "fd4de00c617b48c89917206b88f37af0": "Function {{buildQueryForeignKeys}} not supported",
+  "fd7747eb3ac06f57d337ef92cfef0f7f": "Function {{paginateSQL}} not supported"
 }
