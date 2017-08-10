@@ -1,6 +1,22 @@
 {
+  "0cc360c963609b7c4ecf0b82d02a4fff": "{{addPropertyToActual()}}은(는) 현재 지원되지 않습니다.",
+  "130848fb8a2410bbb210d1e4b215b9f0": "{{showFields()}}은(는) 현재 지원되지 않습니다.",
+  "36c49732b9f58d259812cfb5ec6de895": "{{searchForPropertyInActual()}}은(는) 현재 지원되지 않습니다.",
+  "388f95dbd90b33cabc5c2f1c79767662": "{{propertyHasNotBeenDeleted()}}은(는) 현재 지원되지 않습니다.",
+  "5bd4357e0ae920069a47377e8d1fbe1c": "{{showIndexes()}}은(는) 현재 지원되지 않습니다.",
+  "6ffaea01c603db5b5287927b28fb7785": "{{buildQueryTables}} 함수는 지원되지 않음",
   "70fcd25148a85f5c8894d9179f1f47bc": "지원되지 않는 기능",
+  "790d47ab3d8923628c50f1b51a8f1102": "{{getArgs}} 함수는 지원되지 않음",
   "80a32e80cbed65eba2103201a7c94710": "모델을 찾을 수 없음: {0}",
-  "b0262f0bd6f0836e16e1a0aa78953475": "올바르지 않은 isolationLevel: {0}"
+  "85a1de9aa1df6f285abcabd10bf1e787": "{{setDefaultOptions}} 함수는 지원되지 않음",
+  "9d3c0de0c6a232ec472470ea7dbcdfaf": "{{buildQueryPrimaryKeys}} 함수는 지원되지 않음",
+  "9fe8bf7bb0666019398fc51ea7918791": "{{setNullableProperty}} 함수는 지원되지 않음",
+  "b6b02c9d5f0d1f86890f936f186bca2e": "{{buildQueryColumns}} 함수는 지원되지 않음",
+  "baa04cd08950779fd7a771e9b3bfc36d": "{{applySqlChanges()}}은(는) 현재 지원되지 않습니다.",
+  "d2b2e849cca356f88a6681d936c40174": "{{buildQueryExportedForeignKeys}} 함수는 지원되지 않음",
+  "d6f986707057234486f417796f6729c4": "{{buildQueryViews}} 함수는 지원되지 않음",
+  "fc0b022726ec79a31ecd41c7ab87e26b": "{{buildQuerySchemas}} 함수는 지원되지 않음",
+  "fd4de00c617b48c89917206b88f37af0": "{{buildQueryForeignKeys}} 함수는 지원되지 않음",
+  "fd7747eb3ac06f57d337ef92cfef0f7f": "{{paginateSQL}} 함수는 지원되지 않음"
 }
 

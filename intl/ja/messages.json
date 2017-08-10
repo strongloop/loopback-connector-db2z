@@ -1,6 +1,22 @@
 {
+  "0cc360c963609b7c4ecf0b82d02a4fff": "{{addPropertyToActual()}} は現在サポートされていません。",
+  "130848fb8a2410bbb210d1e4b215b9f0": "{{showFields()}} は現在サポートされていません。",
+  "36c49732b9f58d259812cfb5ec6de895": "{{searchForPropertyInActual()}} は現在サポートされていません。",
+  "388f95dbd90b33cabc5c2f1c79767662": "{{propertyHasNotBeenDeleted()}} は現在サポートされていません。",
+  "5bd4357e0ae920069a47377e8d1fbe1c": "{{showIndexes()}} は現在サポートされていません。",
+  "6ffaea01c603db5b5287927b28fb7785": "関数 {{buildQueryTables}} はサポートされていません",
   "70fcd25148a85f5c8894d9179f1f47bc": "関数がサポートされていません",
+  "790d47ab3d8923628c50f1b51a8f1102": "関数 {{getArgs}} はサポートされていません",
   "80a32e80cbed65eba2103201a7c94710": "モデルが見つかりません: {0}",
-  "b0262f0bd6f0836e16e1a0aa78953475": "無効な isolationLevel: {0}"
+  "85a1de9aa1df6f285abcabd10bf1e787": "関数 {{setDefaultOptions}} はサポートされていません",
+  "9d3c0de0c6a232ec472470ea7dbcdfaf": "関数 {{buildQueryPrimaryKeys}} はサポートされていません",
+  "9fe8bf7bb0666019398fc51ea7918791": "関数 {{setNullableProperty}} はサポートされていません",
+  "b6b02c9d5f0d1f86890f936f186bca2e": "関数 {{buildQueryColumns}} はサポートされていません",
+  "baa04cd08950779fd7a771e9b3bfc36d": "{{applySqlChanges()}} は現在サポートされていません。",
+  "d2b2e849cca356f88a6681d936c40174": "関数 {{buildQueryExportedForeignKeys}} はサポートされていません",
+  "d6f986707057234486f417796f6729c4": "関数 {{buildQueryViews}} はサポートされていません",
+  "fc0b022726ec79a31ecd41c7ab87e26b": "関数 {{buildQuerySchemas}} はサポートされていません",
+  "fd4de00c617b48c89917206b88f37af0": "関数 {{buildQueryForeignKeys}} はサポートされていません",
+  "fd7747eb3ac06f57d337ef92cfef0f7f": "関数 {{paginateSQL}} はサポートされていません"
 }
 
