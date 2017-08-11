@@ -1,6 +1,22 @@
 {
+  "0cc360c963609b7c4ecf0b82d02a4fff": "目前不支援 {{addPropertyToActual()}}。",
+  "130848fb8a2410bbb210d1e4b215b9f0": "目前不支援 {{showFields()}}。",
+  "36c49732b9f58d259812cfb5ec6de895": "目前不支援 {{searchForPropertyInActual()}}。",
+  "388f95dbd90b33cabc5c2f1c79767662": "目前不支援 {{propertyHasNotBeenDeleted()}}。",
+  "5bd4357e0ae920069a47377e8d1fbe1c": "目前不支援 {{showIndexes()}}。",
+  "6ffaea01c603db5b5287927b28fb7785": "不支援函數 {{buildQueryTables}}",
   "70fcd25148a85f5c8894d9179f1f47bc": "不支援函數",
+  "790d47ab3d8923628c50f1b51a8f1102": "不支援函數 {{getArgs}}",
   "80a32e80cbed65eba2103201a7c94710": "找不到模型：{0}",
-  "b0262f0bd6f0836e16e1a0aa78953475": "無效 isolationLevel：{0}"
+  "85a1de9aa1df6f285abcabd10bf1e787": "不支援函數 {{setDefaultOptions}}",
+  "9d3c0de0c6a232ec472470ea7dbcdfaf": "不支援函數 {{buildQueryPrimaryKeys}}",
+  "9fe8bf7bb0666019398fc51ea7918791": "不支援函數 {{setNullableProperty}}",
+  "b6b02c9d5f0d1f86890f936f186bca2e": "不支援函數 {{buildQueryColumns}}",
+  "baa04cd08950779fd7a771e9b3bfc36d": "目前不支援 {{applySqlChanges()}}。",
+  "d2b2e849cca356f88a6681d936c40174": "不支援函數 {{buildQueryExportedForeignKeys}}",
+  "d6f986707057234486f417796f6729c4": "不支援函數 {{buildQueryViews}}",
+  "fc0b022726ec79a31ecd41c7ab87e26b": "不支援函數 {{buildQuerySchemas}}",
+  "fd4de00c617b48c89917206b88f37af0": "不支援函數 {{buildQueryForeignKeys}}",
+  "fd7747eb3ac06f57d337ef92cfef0f7f": "不支援函數 {{paginateSQL}}"
 }
 
