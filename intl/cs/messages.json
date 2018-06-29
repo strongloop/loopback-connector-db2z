@@ -1,0 +1,22 @@
+{
+  "0cc360c963609b7c4ecf0b82d02a4fff": "Parametr {{addPropertyToActual()}} není aktuálně podporován.",
+  "130848fb8a2410bbb210d1e4b215b9f0": "Parametr {{showFields()}} není aktuálně podporován.",
+  "36c49732b9f58d259812cfb5ec6de895": "Parametr {{searchForPropertyInActual()}} není aktuálně podporován.",
+  "388f95dbd90b33cabc5c2f1c79767662": "Parametr {{propertyHasNotBeenDeleted()}} není aktuálně podporován.",
+  "5bd4357e0ae920069a47377e8d1fbe1c": "Parametr {{showIndexes()}} není aktuálně podporován.",
+  "6ffaea01c603db5b5287927b28fb7785": "Funkce {{buildQueryTables}} není podporována",
+  "70fcd25148a85f5c8894d9179f1f47bc": "Funkce není podporována",
+  "790d47ab3d8923628c50f1b51a8f1102": "Funkce {{getArgs}} není podporována",
+  "80a32e80cbed65eba2103201a7c94710": "Model nebyl nalezen: {0}",
+  "85a1de9aa1df6f285abcabd10bf1e787": "Funkce {{setDefaultOptions}} není podporována",
+  "9d3c0de0c6a232ec472470ea7dbcdfaf": "Funkce {{buildQueryPrimaryKeys}} není podporována",
+  "9fe8bf7bb0666019398fc51ea7918791": "Funkce {{setNullableProperty}} není podporována",
+  "b6b02c9d5f0d1f86890f936f186bca2e": "Funkce {{buildQueryColumns}} není podporována",
+  "baa04cd08950779fd7a771e9b3bfc36d": "Parametr {{applySqlChanges()}} není aktuálně podporován.",
+  "d2b2e849cca356f88a6681d936c40174": "Funkce {{buildQueryExportedForeignKeys}} není podporována",
+  "d6f986707057234486f417796f6729c4": "Funkce {{buildQueryViews}} není podporována",
+  "fc0b022726ec79a31ecd41c7ab87e26b": "Funkce {{buildQuerySchemas}} není podporována",
+  "fd4de00c617b48c89917206b88f37af0": "Funkce {{buildQueryForeignKeys}} není podporována",
+  "fd7747eb3ac06f57d337ef92cfef0f7f": "Funkce {{paginateSQL}} není podporována"
+}
+
