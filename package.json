@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-db2z",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "LoopBack Connector for IBM DB2 for z/OS",
   "engines": {
     "node": ">=4"

@@ -1,3 +1,25 @@
+2019-01-15, Version 2.0.1
+=========================
+
+ * [WebFM] cs/pl/ru translation (candytangnb)
+
+ * chore: update license (Diana Lau)
+
+ * Add stalebot configuration (Kevin Delisle)
+
+ * Create Issue and PR Templates (#44) (Sakib Hasan)
+
+ * Update translated strings Q3 2017 (Allen Boone)
+
+ * update messages.json (Diana Lau)
+
+ * Add CODEOWNER file (Diana Lau)
+
+ * Replicate issue_template from loopback repo (#27) (Siddhi Pai)
+
+ * Require init on mocha args (Candy)
+
+
 2017-04-11, Version 2.0.0
 =========================
 
